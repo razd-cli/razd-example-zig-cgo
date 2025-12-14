@@ -2,3 +2,4 @@
 task = "latest"
 go = "1.23"
 zig = "latest"
+goreleaser = "latest"
