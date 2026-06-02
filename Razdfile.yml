@@ -1,11 +1,13 @@
 version: "1"
 
-mise:
-  tools:
-    task: "latest"
-    go: "1.23"
-    zig: "latest"
+dependencies:
+  using: "mise"
 
+  ensure:
+    - "task@latest"
+    - "go@1.23"
+    - "zig@latest"
+    
 tasks:
   default:
     desc: "Установка инструментов и сборка проекта"
